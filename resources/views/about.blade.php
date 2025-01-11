@@ -11,7 +11,7 @@
     <!-- ======== Page title ============ -->
     <title>Digtek - Digital Marketing Agency Html Template</title>
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--<< All Min Css >>-->
@@ -62,7 +62,7 @@
                 </div>
                 <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                     <li>
-                        <a href="index.html"> Home </a>
+                        <a href="/"> Home </a>
                     </li>
                     <li>
                         <i class="fa-solid fa-chevron-right"></i>
@@ -94,7 +94,7 @@
                             <div class="gap-shape float-bob-x">
                                 <img src="assets/img/about/grap-2.png" alt="img" />
                             </div>
-                            <a href="about.html" class="circle-button">
+                            <a href="/about" class="circle-button">
                                 <i class="fa-regular fa-arrow-up-right"></i>
                                 <span class="text-circle">
                                     <img src="assets/img/about/white-text.png" alt="img" />
@@ -106,17 +106,22 @@
                         <div class="about-content">
                             <div class="section-title">
                                 <div class="sub-title bg-color-2 wow fadeInUp">
-                                    <span>About Company</span>
+                                    <span>About Ardent Digital Trends</span>
                                 </div>
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                    Let’s make something awesome together
+                                    Welcome to Ardent Digital Trends
                                 </h2>
                             </div>
                             <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                We're not just another agency – we're your digital growth
-                                partners. With years of industry experience and a passion for
-                                innovation, our team is dedicated to delivering measurable
-                                results propel your business forward.
+                                Established in September 2016, Ardent Digital Trends is a leading marketing consultancy
+                                firm
+                                based in Nairobi, Kenya. We specialize in helping businesses harness the power of
+                                technology,
+                                data, and strategy to achieve exceptional growth and results. With a commitment to
+                                innovation
+                                and measurable impact, we empower our clients to thrive in competitive markets. Our
+                                mission is simple:
+                                To deliver cutting-edge marketing solutions that drive ROI and foster long-term success.
                             </p>
                             <div class="icon-items-area">
                                 <div class="icon-items wow fadeInUp" data-wow-delay=".3s">
@@ -124,11 +129,15 @@
                                         <i class="icon-01"></i>
                                     </div>
                                     <div class="content">
-                                        <h3>Analytics Reporting</h3>
+                                        <h3>Why Choose Us?</h3>
                                         <p>
-                                            Collaboratively formulate principle capital.
-                                            Progressively evolve user
+                                            At Ardent Digital Trends, we combine expertise with a human touch to ensure
+                                            every solution
+                                            aligns with your unique goals. We’re not just about strategies; we’re about
+                                            results. Here’s why
+                                            businesses trust us:
                                         </p>
+
                                     </div>
                                 </div>
                                 <div class="icon-items wow fadeInUp" data-wow-delay=".5s">
@@ -136,22 +145,21 @@
                                         <i class="icon-02"></i>
                                     </div>
                                     <div class="content">
-                                        <h3>Data Guard Sentinel</h3>
-                                        <p>
-                                            Collaboratively formulate principle capital.
-                                            Progressively evolve user
-                                        </p>
+                                        <h3>Our Services</h3>
+                                        <p>Our expertise spans across various services designed to propel your business
+                                            forward:</p>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="about-button">
                                 <div class="main-button wow fadeInUp" data-wow-delay=".3s">
-                                    <a href="about.html">
+                                    <a href="/contact">
                                         <span class="theme-btn">ABOUT US MORE </span><span class="arrow-btn"><i
                                                 class="fa-regular fa-arrow-up-right"></i></span></a>
                                 </div>
-                                <a href="about.html" class="link-btn wow fadeInUp" data-wow-delay=".5s">EXPLORE
-                                    MORE</a>
+                                {{-- <a href="/about" class="link-btn wow fadeInUp" data-wow-delay=".5s">EXPLORE
+                                    MORE</a> --}}
                             </div>
                         </div>
                     </div>
@@ -159,6 +167,63 @@
             </div>
         </div>
     </section>
+    <!-- About Section End -->
+
+
+    <!-- Founder Section Start -->
+    <section class="founder-section fix section-padding pt-0 bg-cover"
+        style="background-image: url('assets/img/testimonial/testimonial-bg.jpg')">
+        <div class="container">
+            <div class="founder-wrapper-2">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="founder-image">
+                            <img src="assets/img/testimonial/03.png" alt="Founder Image"
+                                class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                            {{-- <div class="rocket-shape">
+                            <img src="assets/img/testimonial/rocket.png" alt="img" />
+                        </div>
+                        <div class="msg-shape float-bob-y">
+                            <img src="assets/img/testimonial/msg.png" alt="img" />
+                        </div> --}}
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="founder-content">
+                            <div class="section-title">
+                                <div class="sub-title bg-color-2 wow fadeInUp">
+                                    <span>Meet Our Founder</span>
+                                </div>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                    Sheila Ombogo – Leading the way with 13+ years of marketing expertise
+                                </h2>
+                            </div>
+                            <p class="wow fadeInUp" data-wow-delay=".5s">
+                                With over 13 years of marketing expertise spanning Africa, the Middle East, and Europe,
+                                our founder is passionate about helping businesses achieve their potential. Having
+                                worked with leading brands and startups alike, they bring a wealth of experience in:
+                            </p>
+                            <ul class="founder-expertise wow fadeInUp" data-wow-delay=".7s">
+                                <li>Crafting data-driven marketing strategies.</li>
+                                <li>Leveraging programmatic advertising for optimal results.</li>
+                                <li>Navigating digital transformation in various industries.</li>
+                            </ul>
+                            <p class="wow fadeInUp" data-wow-delay=".9s">
+                                As a visionary leader, they’ve built Ardent Digital Trends into a trusted partner for
+                                businesses looking to innovate, grow, and succeed.
+                            </p>
+                            <div class="connect-button wow fadeInUp" data-wow-delay="1s">
+                                <a href="/contact" class="main-button">
+                                    <span class="theme-btn">Connect With Us</span><span class="arrow-btn"><i
+                                            class="fa-regular fa-arrow-up-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Founder Section End -->
 
     <!-- Cta Counter Section Start -->
     <section class="cta-counter-section-3 fix section-bg section-padding bg-cover"
@@ -168,24 +233,24 @@
                 <div class="section-title-area">
                     <div class="section-title">
                         <div class="sub-title bg-color-3 wow fadeInUp">
-                            <span>Counter</span>
+                            <span>Our Achievements</span>
                         </div>
                         <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
                             Make your marketing <br />
-                            more effective
+                            more effective with Ardent Digital Trends
                         </h2>
                     </div>
                     <div class="counter-box-area">
                         <div class="counter-text wow fadeInUp" data-wow-delay=".3s">
-                            <h2><span class="count">19.4</span>K</h2>
-                            <p>Projects Done</p>
+                            <h2><span class="count">500</span>+</h2>
+                            <p>Projects Delivered</p>
                         </div>
                         <div class="counter-text wow fadeInUp" data-wow-delay=".5s">
-                            <h2><span class="count">95.2</span>K</h2>
+                            <h2><span class="count">500</span>+</h2>
                             <p>Happy Clients</p>
                         </div>
                         <div class="counter-text wow fadeInUp" data-wow-delay=".7s">
-                            <h2><span class="count">142.6</span>K</h2>
+                            <h2><span class="count">24</span></h2>
                             <p>Team Members</p>
                         </div>
                     </div>
@@ -199,6 +264,7 @@
             </div>
         </div>
     </section>
+    <!-- Cta Counter Section End -->
 
     <!-- Values Section Start -->
     <section class="value-section fix section-padding section-bg pt-0">
@@ -210,7 +276,7 @@
         </div>
         <div class="container">
             <div class="section-title text-center wow fadeInUp" data-wow-delay=".3s">
-                <h2>Our values</h2>
+                <h2>Our Values</h2>
             </div>
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -221,8 +287,8 @@
                         <div class="content">
                             <h3>Integrity</h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively
-                                evolve user revolutionary hosting services.
+                                We operate with transparency and honesty, always prioritizing our client's interests
+                                while maintaining ethical practices in everything we do.
                             </p>
                         </div>
                     </div>
@@ -233,10 +299,10 @@
                             <i class="icon-02"></i>
                         </div>
                         <div class="content">
-                            <h3>Simplicity</h3>
+                            <h3>Innovation</h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively
-                                evolve user revolutionary hosting services.
+                                We believe in leveraging the latest technology and trends, especially AI and data
+                                analytics, to drive innovative solutions that meet our clients’ unique needs.
                             </p>
                         </div>
                     </div>
@@ -247,10 +313,10 @@
                             <i class="icon-03"></i>
                         </div>
                         <div class="content">
-                            <h3>Performance</h3>
+                            <h3>Collaboration</h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively
-                                evolve user revolutionary hosting services.
+                                We work closely with our clients, understanding their goals and challenges to build
+                                customized solutions. Together, we achieve success.
                             </p>
                         </div>
                     </div>
@@ -261,10 +327,10 @@
                             <i class="icon-04"></i>
                         </div>
                         <div class="content">
-                            <h3>Integrity</h3>
+                            <h3>Excellence</h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively
-                                evolve user revolutionary hosting services.
+                                We strive for excellence in everything we do. From strategy to execution, our goal is to
+                                provide results that exceed expectations and drive meaningful business growth.
                             </p>
                         </div>
                     </div>
@@ -272,117 +338,10 @@
             </div>
         </div>
     </section>
+    <!-- Values Section End -->
 
-    <!-- Testimonial Section Start -->
-    <section class="testimonial-section-3 section-padding pt-0">
-        <div class="overlay-shape">
-            <img src="assets/img/testimonial/overlay-shape.png" alt="img" />
-        </div>
-        <div class="overlay-shape-2">
-            <img src="assets/img/testimonial/overlay-shape-2.png" alt="img" />
-        </div>
-        <div class="left-shape">
-            <img src="assets/img/testimonial/left-shape.png" alt="img" />
-        </div>
-        <div class="right-shape">
-            <img src="assets/img/testimonial/right-shape.png" alt="img" />
-        </div>
-        <div class="container">
-            <div class="section-title text-center">
-                <div class="sub-title bg-color-2 wow fadeInUp">
-                    <span>TESTIMONIALS</span>
-                </div>
-                <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                    What our happy customers <br />
-                    are saying
-                </h2>
-            </div>
-            <div class="testimonial-wrapper-3 style-2">
-                <div class="client-1">
-                    <img src="assets/img/testimonial/06.png" alt="img" />
-                </div>
-                <div class="client-2">
-                    <img src="assets/img/testimonial/07.png" alt="img" />
-                </div>
-                <div class="client-3">
-                    <img src="assets/img/testimonial/08.png" alt="img" />
-                </div>
-                <div class="client-4">
-                    <img src="assets/img/testimonial/09.png" alt="img" />
-                </div>
-                <div class="swiper testimonial-slider-2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-content">
-                                <div class="icon">
-                                    <img src="assets/img/testimonial/quote.png" alt="img" />
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                                    Mauris nullam the as integer quam dolor nunc semper.
-                                    faucibus pulvinar neque. The as Suscipit tristique mauris
-                                    consectetur platea.
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-img">
-                                        <img src="assets/img/testimonial/05.png" alt="img" />
-                                    </div>
-                                    <div class="content">
-                                        <h6>Esther Howard</h6>
-                                        <span>Trader, USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-content">
-                                <div class="icon">
-                                    <img src="assets/img/testimonial/quote.png" alt="img" />
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                                    Mauris nullam the as integer quam dolor nunc semper.
-                                    faucibus pulvinar neque. The as Suscipit tristique mauris
-                                    consectetur platea.
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-img">
-                                        <img src="assets/img/testimonial/05.png" alt="img" />
-                                    </div>
-                                    <div class="content">
-                                        <h6>Esther Howard</h6>
-                                        <span>Trader, USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-content">
-                                <div class="icon">
-                                    <img src="assets/img/testimonial/quote.png" alt="img" />
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                                    Mauris nullam the as integer quam dolor nunc semper.
-                                    faucibus pulvinar neque. The as Suscipit tristique mauris
-                                    consectetur platea.
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-img">
-                                        <img src="assets/img/testimonial/05.png" alt="img" />
-                                    </div>
-                                    <div class="content">
-                                        <h6>Esther Howard</h6>
-                                        <span>Trader, USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
 
     @include('footer')
 

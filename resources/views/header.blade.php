@@ -5,8 +5,9 @@
             <div class="offcanvas__content">
                 <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
-                        <a href="/">
-                            <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                        <a href="/" class="header-logo-2">
+                            <img src="assets/img/logo/white-logo.svg" alt="logo-img"
+                                style="width: 120px; height: auto;" />
                         </a>
                     </div>
                     <div class="offcanvas__close">
@@ -16,9 +17,8 @@
                     </div>
                 </div>
                 <p class="text d-none d-xl-block">
-                    Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                    sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean
-                    a imperdiet risus.
+                    Our mission is simple: To deliver cutting-edge marketing solutions that drive ROI and foster
+                    long-term success.
                 </p>
                 <div class="mobile-menu fix mb-3"></div>
                 <div class="offcanvas__contact">
@@ -67,6 +67,7 @@
                     <div class="social-icon d-flex align-items-center">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>

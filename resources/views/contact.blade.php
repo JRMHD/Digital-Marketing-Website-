@@ -11,7 +11,7 @@
     <!-- ======== Page title ============ -->
     <title>Digtek - Digital Marketing Agency Html Template</title>
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--<< All Min Css >>-->
@@ -64,7 +64,7 @@
                 </div>
                 <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                     <li>
-                        <a href="index.html"> Home </a>
+                        <a href="/"> Home </a>
                     </li>
                     <li>
                         <i class="fa-solid fa-chevron-right"></i>
@@ -87,8 +87,8 @@
                         <div class="content">
                             <h3>Our Address</h3>
                             <p>
-                                2464 Royal Ln. Mesa, New Jersey <br />
-                                45463.
+                                Nairobi <br />
+                                Kenya.
                             </p>
                         </div>
                     </div>
@@ -99,10 +99,10 @@
                             <i class="icon-10"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="mailto:info@example.com">info@example.com</a></h3>
+                            <h3><a href="mailto: info@ardentdigitaltrends.com"> info@ardentdigitaltrends.com</a></h3>
                             <p>
-                                Email us anytime for anykind <br />
-                                ofquety.
+                                Email us anytime
+
                             </p>
                         </div>
                     </div>
@@ -113,10 +113,9 @@
                             <i class="icon-11"></i>
                         </div>
                         <div class="content">
-                            <h3>Hot:<a href="tel:+2086660112">+208-666-0112</a></h3>
+                            <h3>Hot:<a href="tel: +254 718 434829"> +254 718 434829</a></h3>
                             <p>
-                                Call us any kind suppor,we <br />
-                                will wait for it.
+                                Call us
                             </p>
                         </div>
                     </div>
@@ -141,11 +140,11 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-content">
-                            <h2>Ready to Get Started?</h2>
+                            <h2>Let’s Work Together</h2>
                             <p>
-                                Nullam varius, erat quis iaculis dictum, eros urna varius
-                                eros, ut blandit felis odio in turpis. Quisque rhoncus, eros
-                                in auctor ultrices,
+                                We’re here to help you achieve your marketing goals. Let’s start with a conversation
+                                about how
+                                we can bring value to your business.
                             </p>
                             <form action="https://ex-coders.com/html/digtek/contact.php" id="contact-form"
                                 method="POST" class="contact-form-items">
@@ -164,6 +163,22 @@
                                                 placeholder="Your Email" />
                                         </div>
                                     </div>
+                                    <!-- Added Subject Field -->
+                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                        <div class="form-clt">
+                                            <span>Subject*</span>
+                                            <input type="text" name="subject" id="subject"
+                                                placeholder="Subject" />
+                                        </div>
+                                    </div>
+                                    <!-- Added Phone Number Field -->
+                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                        <div class="form-clt">
+                                            <span>Your Phone Number*</span>
+                                            <input type="text" name="phone" id="phone"
+                                                placeholder="Your Phone Number" />
+                                        </div>
+                                    </div>
                                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                         <div class="form-clt">
                                             <span>Write Message*</span>
@@ -177,6 +192,8 @@
                                         </button>
                                     </div>
                                 </div>
+                            </form>
+
                             </form>
                         </div>
                     </div>

@@ -11,7 +11,7 @@
     <!-- ======== Page title ============ -->
     <title>Digtek - Digital Marketing Agency Html Template</title>
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--<< All Min Css >>-->
@@ -66,22 +66,22 @@
             <div class="row g-4 justify-content-between align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-content">
-                        <h6 class="wow fadeInUp">go for advertising</h6>
+                        <h6 class="wow fadeInUp">Ardent Digital Trends</h6>
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
-                            Innovative Solutions for a Digital World.
+                            Shaping Tomorrow’s Digital Landscape Today.
                         </h1>
+
                         <p class="wow fadeInUp" data-wow-delay=".5s">
-                            There are many variations of passages of Lorem Ipsum available,
-                            but the majority have suffered alteration in some form, by
-                            injected humour, or randomised
+                            Our mission is simple: To deliver cutting-edge marketing solutions that drive ROI and foster
+                            long-term success.
                         </p>
                         <div class="hero-button">
                             <div class="main-button wow fadeInUp" data-wow-delay=".3s">
-                                <a href="about.html">
+                                <a href="/about">
                                     <span class="theme-btn">EXPLORE MORE </span><span class="arrow-btn"><i
                                             class="fa-regular fa-arrow-up-right"></i></span></a>
                             </div>
-                            <a href="about.html" class="link-btn wow fadeInUp" data-wow-delay=".5s">EXPLORE MORE</a>
+                            {{-- <a href="/about" class="link-btn wow fadeInUp" data-wow-delay=".5s">EXPLORE MORE</a> --}}
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
             </div>
         </div>
         <div class="brand-wrapper-2">
-            <h4 class="brand-title">1k + Brands Trust Us</h4>
+            <h4 class="brand-title">500 + Brands Trust Us</h4>
             <div class="swiper brand-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -134,6 +134,7 @@
         </div>
     </section>
 
+
     <!-- Service Section Start -->
     <section class="service-section fix section-padding">
         <div class="left-shape float-bob-y">
@@ -149,60 +150,74 @@
             <div class="section-title-area">
                 <div class="section-title">
                     <div class="sub-title wow fadeInUp">
-                        <span>WHY services uS</span>
+                        <span>Our Services</span>
                     </div>
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                        Use SEO to Drive Growth <br />
-                        at Your Business
+                        AI-Powered Marketing and Digital Transformation
                     </h2>
                 </div>
                 <p class="wow fadeInUp" data-wow-delay=".5s">
-                    Pellentesque ut vehicula sapien <br />
-                    dictumst. Maecenas ante.
+                    Stay ahead with cutting-edge AI tools and marketing automation. We help businesses adapt and thrive
+                    in the digital age by integrating technology into their marketing processes.
                 </p>
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="service-box-items">
+                    <div class="service-box-items"
+                        style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center; background-color: #fff; border: 1px solid #e5e5e5; border-radius: 10px; padding: 20px; height: 100%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                         <div class="icon">
-                            <img src="assets/img/service/icon-1.png" alt="img" />
+                            <img src="assets/img/service/icon-1.png" alt="img"
+                                style="max-width: 80px; margin-bottom: 20px;" />
                         </div>
-                        <div class="content">
-                            <h4><a href="service-details.html">Digital Marketing</a></h4>
-                            <p>
-                                Lorem dolor amet consectetur read adipiscing any more elit.
+                        <div class="content"
+                            style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                            <h4 style="font-size: 20px; margin: 10px 0;"><a href="/services">Digital
+                                    Marketing Audit & Strategy</a></h4>
+                            <p style="font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                                Get a comprehensive analysis of your digital marketing efforts. We identify gaps,
+                                uncover opportunities, and develop data-driven strategies that deliver ROI.
                             </p>
-                            <a href="service-details.html" class="link-btn">Read More <i
+                            <a href="/services" class="link-btn" style="margin-top: auto;">Read More <i
                                     class="fa-regular fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="service-box-items">
+                    <div class="service-box-items"
+                        style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center; background-color: #fff; border: 1px solid #e5e5e5; border-radius: 10px; padding: 20px; height: 100%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                         <div class="icon">
-                            <img src="assets/img/service/icon-2.png" alt="img" />
+                            <img src="assets/img/service/icon-2.png" alt="img"
+                                style="max-width: 80px; margin-bottom: 20px;" />
                         </div>
-                        <div class="content">
-                            <h4><a href="service-details.html">SEO Analytics</a></h4>
-                            <p>
-                                Lorem dolor amet consectetur read adipiscing any more elit.
+                        <div class="content"
+                            style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                            <h4 style="font-size: 20px; margin: 10px 0;"><a href="/services">Media
+                                    Buying</a></h4>
+                            <p style="font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                                Maximize your reach with targeted ads via Programmatic Ads, Meta (Facebook & Instagram),
+                                TikTok, and LinkedIn.
                             </p>
-                            <a href="service-details.html" class="link-btn">Read More <i
+                            <a href="/services" class="link-btn" style="margin-top: auto;">Read More <i
                                     class="fa-regular fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="service-box-items">
+                    <div class="service-box-items"
+                        style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center; background-color: #fff; border: 1px solid #e5e5e5; border-radius: 10px; padding: 20px; height: 100%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                         <div class="icon">
-                            <img src="assets/img/service/icon-3.png" alt="img" />
+                            <img src="assets/img/service/icon-3.png" alt="img"
+                                style="max-width: 80px; margin-bottom: 20px;" />
                         </div>
-                        <div class="content">
-                            <h4><a href="service-details.html">Social Marketing</a></h4>
-                            <p>
-                                Lorem dolor amet consectetur read adipiscing any more elit.
+                        <div class="content"
+                            style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                            <h4 style="font-size: 20px; margin: 10px 0;"><a href="/services">ROI-Driven
+                                    Marketing Strategies</a></h4>
+                            <p style="font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                                Our campaigns focus on what matters most – results. From lead generation to conversions,
+                                we deliver strategies that make a tangible impact on your bottom line.
                             </p>
-                            <a href="service-details.html" class="link-btn">Read More <i
+                            <a href="/services" class="link-btn" style="margin-top: auto;">Read More <i
                                     class="fa-regular fa-arrow-right-long"></i></a>
                         </div>
                     </div>
@@ -218,7 +233,7 @@
         </div>
         <div class="container">
             <div class="brand-wrapper">
-                <h4 class="brand-title">1k + Brands Trust Us</h4>
+                <h4 class="brand-title">500 + Brands Trust Us</h4>
                 <div class="swiper brand-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -268,20 +283,22 @@
                         <div class="about-content">
                             <div class="section-title">
                                 <div class="sub-title bg-color-2 wow fadeInUp">
-                                    <span>ABOUT COMPANY</span>
+                                    <span>ABOUT ARDENT</span>
                                 </div>
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                    Skills to improve Your Company Brand
+                                    Welcome to Ardent Digital Trends
                                 </h2>
                             </div>
                             <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                It is a long established fact that a reader will be distracted
-                                the readable content of a page when looking at layout the
-                                point established fact that
+                                Established in September 2016, Ardent Digital Trends is a leading marketing consultancy
+                                firm based in Nairobi, Kenya. We specialize in helping businesses harness the power of
+                                technology, data, and strategy to achieve exceptional growth and results. With a
+                                commitment to innovation and measurable impact, we empower our clients to thrive in
+                                competitive markets.
                             </p>
                             <div class="circle-progress-bar-wrapper">
                                 <div class="single-circle-bar wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="circle-bar" data-percent="65" data-duration="2000"></div>
+                                    <div class="circle-bar" data-percent="85" data-duration="2000"></div>
                                     <div class="content">
                                         <h6>
                                             Paid search <br />
@@ -300,12 +317,13 @@
                                 </div>
                             </div>
                             <div class="main-button wow fadeInUp" data-wow-delay=".3s">
-                                <a href="about.html">
+                                <a href="/about">
                                     <span class="theme-btn"> EXPLORE MORE </span><span class="arrow-btn"><i
                                             class="fa-regular fa-arrow-up-right"></i></span></a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -329,14 +347,15 @@
                         <span>Case Studies</span>
                     </div>
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                        We Are A Creative Digital <br />
-                        Marketing Agency
+                        Empowering Businesses with Tech-Driven <br />
+                        Marketing Solutions
                     </h2>
                 </div>
                 <div class="main-button wow fadeInUp" data-wow-delay=".5s">
-                    <a href="about.html">
-                        <span class="theme-btn"> EXPLORE MORE </span><span class="arrow-btn"><i
-                                class="fa-regular fa-arrow-up-right"></i></span></a>
+                    <a href="/about">
+                        <span class="theme-btn"> LEARN MORE </span>
+                        <span class="arrow-btn"><i class="fa-regular fa-arrow-up-right"></i></span>
+                    </a>
                 </div>
             </div>
             <div class="case-study-wrapper">
@@ -348,29 +367,29 @@
                                 <div class="post-box-items">
                                     <ul>
                                         <li>
-                                            <a href="project-details.html">Real-time Analytics
+                                            <a href="/services">AI-Powered Marketing
                                                 <i class="fa-regular fa-arrow-up-right"></i></a>
                                         </li>
                                         <li>
-                                            <a href="project-details.html">Social <i
-                                                    class="fa-regular fa-arrow-up-right"></i></a>
+                                            <a href="/services">Digital Transformation
+                                                <i class="fa-regular fa-arrow-up-right"></i></a>
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <a href="project-details.html">Agile Advance
+                                            <a href="/services">Media Buying
                                                 <i class="fa-regular fa-arrow-up-right"></i></a>
                                         </li>
                                         <li>
-                                            <a href="project-details.html">Advance <i
-                                                    class="fa-regular fa-arrow-up-right"></i></a>
+                                            <a href="/services">New Market Penetration
+                                                <i class="fa-regular fa-arrow-up-right"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                                 <h3 class="project-title">
-                                    <a href="project-details.html">
+                                    <a href="/services">
                                         <img src="assets/img/case-studies/icon.png" alt="img" />
-                                        Rising Stars Obscure
+                                        Tailored Marketing Strategies
                                     </a>
                                 </h3>
                                 <span class="number">01</span>
@@ -382,72 +401,69 @@
                             <div class="box wow fadeInUp">
                                 <div class="title-items">
                                     <h3>
-                                        <a href="project-details.html">Digital Marketing</a>
+                                        <a href="/services">Digital Audits</a>
                                     </h3>
                                     <span class="number">02</span>
                                 </div>
                                 <span class="number-hover">02</span>
                                 <div class="project-content">
                                     <h3>
-                                        <a href="project-details.html">Digital Marketing</a>
+                                        <a href="/services">Comprehensive Digital Audits</a>
                                     </h3>
                                     <p>
-                                        Reprehendeirure irit in volut ate velit esse cillum
-                                        dolDuis aute irure dolor in ore
+                                        Identify gaps and opportunities with data-driven insights to maximize your ROI.
                                     </p>
-                                    <a href="project-details.html" class="link-btn">Read More <i
+                                    <a href="/services" class="link-btn">Read More <i
                                             class="fa-regular fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                             <div class="box bg-1 wow fadeInUp wow" data-wow-delay=".2s">
                                 <div class="title-items">
                                     <h3>
-                                        <a href="project-details.html">Instantly Analyze</a>
+                                        <a href="/services">Sales</a>
                                     </h3>
                                     <span class="number">03</span>
                                 </div>
                                 <span class="number-hover">03</span>
                                 <div class="project-content">
                                     <h3>
-                                        <a href="project-details.html">Instantly Analyze</a>
+                                        <a href="/services">Sales & Marketing Training</a>
                                     </h3>
                                     <p>
-                                        Reprehendeirure irit in volut ate velit esse cillum
-                                        dolDuis aute irure dolor in ore
+                                        Empower your teams with actionable insights and strategies to close deals
+                                        faster.
                                     </p>
-                                    <a href="project-details.html" class="link-btn">Read More <i
+                                    <a href="/services" class="link-btn">Read More <i
                                             class="fa-regular fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                             <div class="box bg-2 active wow fadeInUp wow" data-wow-delay=".4s">
                                 <div class="title-items">
-                                    <h3><a href="project-details.html">Web & Mobile</a></h3>
+                                    <h3><a href="/services">Tech-Driven</a></h3>
                                     <span class="number">04</span>
                                 </div>
                                 <span class="number-hover">04</span>
                                 <div class="project-content">
-                                    <h3><a href="project-details.html">Web & Mobile</a></h3>
+                                    <h3><a href="/services">Tech-Driven Innovation</a></h3>
                                     <p>
-                                        Reprehendeirure irit in volut ate velit esse cillum
-                                        dolDuis aute irure dolor in ore
+                                        Stay ahead with AI tools, marketing automation, and data analytics.
                                     </p>
-                                    <a href="project-details.html" class="link-btn">Read More <i
+                                    <a href="/services" class="link-btn">Read More <i
                                             class="fa-regular fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                             <div class="box bg-3 wow fadeInUp wow" data-wow-delay=".6s">
                                 <div class="title-items">
-                                    <h3><a href="project-details.html">Email marketing</a></h3>
+                                    <h3><a href="/services">Market Research</a></h3>
                                     <span class="number">05</span>
                                 </div>
                                 <span class="number-hover">05</span>
                                 <div class="project-content">
-                                    <h3><a href="project-details.html">Email marketing</a></h3>
+                                    <h3><a href="/services">Market Research & Reporting</a></h3>
                                     <p>
-                                        Reprehendeirure irit in volut ate velit esse cillum
-                                        dolDuis aute irure dolor in ore
+                                        Make data-informed decisions with expert market analysis and insights.
                                     </p>
-                                    <a href="project-details.html" class="link-btn">Read More <i
+                                    <a href="/services" class="link-btn">Read More <i
                                             class="fa-regular fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
@@ -457,6 +473,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Audience Section Start -->
     <section class="audience-section fix section-padding bg-cover"
@@ -468,10 +485,10 @@
                         <div class="audience-content">
                             <div class="section-title">
                                 <div class="sub-title bg-color-3 wow fadeInUp">
-                                    <span class="wow fadeInUp">Success Stories</span>
+                                    <span class="wow fadeInUp">Client Success Stories</span>
                                 </div>
                                 <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                                    Organic Audience Driven On Your Websites
+                                    Marketing Strategies That Drive Results
                                 </h2>
                             </div>
                             <div class="client-items wow fadeInUp" data-wow-delay=".5s">
@@ -488,7 +505,7 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-regular fa-star"></i>
                                         </div>
-                                        <span>450+ reviews</span>
+                                        <span>450+ positive reviews</span>
                                     </div>
                                 </div>
                             </div>
@@ -503,18 +520,19 @@
                                 <div class="counter-box wow fadeInUp" data-wow-delay=".5s">
                                     <h2><span class="count">500</span>+</h2>
                                     <div class="content">
-                                        <h4>Total Project</h4>
+                                        <h4>Successful Projects</h4>
                                         <p>
-                                            Lorem dolor amet consectetur adipiscing any more elit.
+                                            Over 500 projects delivered with measurable impact and client satisfaction.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="counter-box wow fadeInUp" data-wow-delay=".7s">
                                     <h2><span class="count">300</span>M+</h2>
                                     <div class="content">
-                                        <h4>Investment</h4>
+                                        <h4>Marketing Investment</h4>
                                         <p>
-                                            Lorem dolor amet consectetur adipiscing any more elit.
+                                            Over $300 million invested in cutting-edge strategies and marketing
+                                            solutions.
                                         </p>
                                     </div>
                                 </div>
@@ -526,320 +544,7 @@
         </div>
     </section>
 
-    <!-- Pricing Section Start -->
-    <section class="pricing-section fix section-padding section-bg">
-        <div class="left-shape float-bob-y">
-            <img src="assets/img/pricing-left.png" alt="img" />
-        </div>
-        <div class="right-shape float-bob-y">
-            <img src="assets/img/pricing-right.png" alt="img" />
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4">
-                    <div class="pricing-content">
-                        <div class="section-title">
-                            <div class="sub-title bg-color-2 wow fadeInUp">
-                                <span>OUR PRICNG PLAN</span>
-                            </div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                Our awesome <br />
-                                Pricing Plan
-                            </h2>
-                        </div>
-                        <div class="pricing-tab-header mt-4 mt-md-0">
-                            <div class="arrow-shape">
-                                <img src="assets/img/arrow.png" alt="img" />
-                            </div>
-                            <ul class="nav" role="tablist">
-                                <li class="nav-item wow fadeInUp" data-wow-delay=".3s" role="presentation">
-                                    <a href="#monthly" data-bs-toggle="tab" class="nav-link active"
-                                        aria-selected="true" role="tab">
-                                        Monthly
-                                    </a>
-                                </li>
-                                <li class="nav-item wow fadeInUp" data-wow-delay=".5s" role="presentation">
-                                    <a href="#yearly" data-bs-toggle="tab" class="nav-link" aria-selected="false"
-                                        role="tab" tabindex="-1">
-                                        Yearly
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="save-text">Save 25%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-8">
-                    <div class="tab-content">
-                        <div id="monthly" class="tab-pane fade show active" role="tabpanel">
-                            <div class="row g-4">
-                                <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="pricing-box-items">
-                                        <div class="pricing-header">
-                                            <div class="content">
-                                                <h4>Premium Plans</h4>
-                                                <h2>$99 <sub>/ Month</sub></h2>
-                                            </div>
-                                            <div class="icon">
-                                                <img src="assets/img/cloud.png" alt="img" />
-                                            </div>
-                                        </div>
-                                        <ul class="price-list">
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> 100 GB SSD
-                                                    Storage</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Weekly
-                                                    Backups</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Unlimited
-                                                    Free
-                                                    SSL</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> 24/7 system
-                                                    Monitoring</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Free Domain
-                                                    ($9.99 value)</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1 color-2"><i class="fa-solid fa-xmark"></i>
-                                                    Dedicated IP
-                                                    Address</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1 color-2"><i class="fa-solid fa-xmark"></i> 20+
-                                                    Payment
-                                                    Methods</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                        </ul>
-                                        <div class="price-button">
-                                            <a href="pricing.html" class="theme-btn">Get Started Now
-                                                <i class="fa-regular fa-arrow-right-long"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                                    <div class="pricing-box-items style-2">
-                                        <div class="pricing-header">
-                                            <div class="content">
-                                                <h4>Extended Plan</h4>
-                                                <h2>$149 <sub>/ Month</sub></h2>
-                                            </div>
-                                            <div class="icon">
-                                                <img src="assets/img/cloud.png" alt="img" />
-                                            </div>
-                                        </div>
-                                        <ul class="price-list">
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> 100 GB SSD
-                                                    Storage</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Weekly
-                                                    Backups</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Unlimited
-                                                    Free
-                                                    SSL</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> 24/7 system
-                                                    Monitoring</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Free Domain
-                                                    ($9.99 value)</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1 color-2"><i class="fa-solid fa-xmark"></i>
-                                                    Dedicated IP
-                                                    Address</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1 color-2"><i class="fa-solid fa-xmark"></i> 20+
-                                                    Payment
-                                                    Methods</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                        </ul>
-                                        <div class="price-button">
-                                            <a href="pricing.html" class="theme-btn">Get Started Now
-                                                <i class="fa-regular fa-arrow-right-long"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="yearly" class="tab-pane fade" role="tabpanel">
-                            <div class="row g-4">
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <div class="pricing-box-items">
-                                        <div class="pricing-header">
-                                            <div class="content">
-                                                <h4>Premium Plans</h4>
-                                                <h2>$99 <sub>/ Month</sub></h2>
-                                            </div>
-                                            <div class="icon">
-                                                <img src="assets/img/cloud.png" alt="img" />
-                                            </div>
-                                        </div>
-                                        <ul class="price-list">
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> 100 GB SSD
-                                                    Storage</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Weekly
-                                                    Backups</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Unlimited
-                                                    Free
-                                                    SSL</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> 24/7 system
-                                                    Monitoring</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Free Domain
-                                                    ($9.99 value)</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1 color-2"><i class="fa-solid fa-xmark"></i>
-                                                    Dedicated IP
-                                                    Address</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1 color-2"><i class="fa-solid fa-xmark"></i> 20+
-                                                    Payment
-                                                    Methods</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                        </ul>
-                                        <div class="price-button">
-                                            <a href="pricing.html" class="theme-btn">Get Started Now
-                                                <i class="fa-regular fa-arrow-right-long"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <div class="pricing-box-items style-2">
-                                        <div class="pricing-header">
-                                            <div class="content">
-                                                <h4>Extended Plan</h4>
-                                                <h2>$149 <sub>/ Month</sub></h2>
-                                            </div>
-                                            <div class="icon">
-                                                <img src="assets/img/cloud.png" alt="img" />
-                                            </div>
-                                        </div>
-                                        <ul class="price-list">
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> 100 GB SSD
-                                                    Storage</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Weekly
-                                                    Backups</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Unlimited
-                                                    Free
-                                                    SSL</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> 24/7 system
-                                                    Monitoring</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1"><i class="fa-regular fa-check"></i> Free Domain
-                                                    ($9.99 value)</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1 color-2"><i class="fa-solid fa-xmark"></i>
-                                                    Dedicated IP
-                                                    Address</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                            <li>
-                                                <span class="price-1 color-2"><i class="fa-solid fa-xmark"></i> 20+
-                                                    Payment
-                                                    Methods</span>
-                                                <span class="icon"><i
-                                                        class="fa-regular fa-circle-question"></i></span>
-                                            </li>
-                                        </ul>
-                                        <div class="price-button">
-                                            <a href="pricing.html" class="theme-btn">Get Started Now
-                                                <i class="fa-regular fa-arrow-right-long"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Testimonial Section Start -->
     <section class="testimonial-section fix section-padding">
@@ -848,7 +553,7 @@
                 <div class="section-title-area">
                     <div class="section-title">
                         <div class="sub-title bg-color-2 wow fadeInUp">
-                            <span>TESTIMONILAS</span>
+                            <span>TESTIMONIALS</span>
                         </div>
                         <h2 class="wow fadeInUp" data-wow-delay=".3s">
                             What our awesome <br />
@@ -856,11 +561,14 @@
                         </h2>
                     </div>
                     <p class="wow fadeInUp" data-wow-delay=".5s">
-                        The a long established fact that a reader will be distracted
+                        At Ardent Digital Trends, we believe that great marketing starts with understanding your
+                        audience.
                         <br />
-                        the readable content of page when looking at layout the <br />
-                        point of using lorem Ipsum
+                        Our founder’s vision is to craft strategies that resonate deeply, ensuring that every
+                        piece of content and every campaign connects with your target market and drives meaningful
+                        engagement.
                     </p>
+
                 </div>
                 <div class="row">
                     <div class="col-xl-2 col-lg-4">
@@ -911,13 +619,13 @@
                                                     <i class="fa-solid fa-star"></i>
                                                     <i class="fa-solid fa-star"></i>
                                                 </div>
-                                                <h5>Esther Howard</h5>
-                                                <span>Nursing Assistant</span>
+                                                <h5>Esther Wanjiru</h5>
+                                                <span>Nursing Assistant - Nairobi, Kenya</span>
                                             </div>
                                             <p>
-                                                Consectetur adipiscing elit. Integer nunc viverra
-                                                laoreet est the is porta pretium metus aliquam eget
-                                                maecenas porta is nunc viverra Aenean
+                                                "Working with Ardent Digital Trends was a game-changer for our business.
+                                                Their strategies
+                                                don’t just look good on paper – they deliver results!"
                                             </p>
                                         </div>
                                     </div>
@@ -942,13 +650,75 @@
                                                     <i class="fa-solid fa-star"></i>
                                                     <i class="fa-solid fa-star"></i>
                                                 </div>
-                                                <h5>Courtney Henry</h5>
-                                                <span>Nursing Assistant</span>
+                                                <h5>Ahmed Al-Farsi</h5>
+                                                <span>Marketing Manager - Dubai, UAE</span>
                                             </div>
                                             <p>
-                                                Consectetur adipiscing elit. Integer nunc viverra
-                                                laoreet est the is porta pretium metus aliquam eget
-                                                maecenas porta is nunc viverra Aenean
+                                                "The digital marketing audit and strategy were spot on. We saw a
+                                                significant improvement in ROI, especially with our targeted campaigns
+                                                across social media."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box-items">
+                                        <div class="icon">
+                                            <img src="assets/img/testimonial/icon.png" alt="img" />
+                                        </div>
+                                        <div class="testimonial-img">
+                                            <img src="assets/img/testimonial/02.png" alt="img" />
+                                            <div class="shape-img">
+                                                <img src="assets/img/testimonial/shape.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <div class="client-info">
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <h5>Lucas Pohlmann</h5>
+                                                <span>Digital Marketer - Berlin, Germany</span>
+                                            </div>
+                                            <p>
+                                                "We were able to scale our digital marketing efforts with their expert
+                                                guidance. The media buying service gave us better targeting for our ad
+                                                campaigns, and the results speak for themselves."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box-items">
+                                        <div class="icon">
+                                            <img src="assets/img/testimonial/icon.png" alt="img" />
+                                        </div>
+                                        <div class="testimonial-img">
+                                            <img src="assets/img/testimonial/04.png" alt="img" />
+                                            <div class="shape-img">
+                                                <img src="assets/img/testimonial/shape.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <div class="client-info">
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <h5>Oluwaseun Adebayo</h5>
+                                                <span>Business Development Manager - Lagos, Nigeria</span>
+                                            </div>
+                                            <p>
+                                                "The ROI-driven marketing strategies they implemented were exactly what
+                                                we needed to boost sales and close deals faster. They truly understand
+                                                what works in today's digital landscape."
                                             </p>
                                         </div>
                                     </div>
@@ -960,6 +730,8 @@
             </div>
         </div>
     </section>
+    <!-- Testimonial Section End -->
+
 
     <!-- Contact Section Start -->
     <section class="contact-section fix section-padding">
@@ -967,23 +739,30 @@
             <div class="section-title-area">
                 <div class="section-title">
                     <div class="sub-title bg-color-3 wow fadeInUp">
-                        <span class="wow fadeInUp">Contact us</span>
+                        <span class="wow fadeInUp">Book a Consultation</span>
                     </div>
                     <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                        How can we help you today?
+                        Let’s tailor a marketing strategy just for you
                     </h2>
                 </div>
                 <p class="white-text wow fadeInUp" data-wow-delay=".5s">
-                    The a long established fact that a reader will be <br />
-                    distracted the readable content of page when <br />
-                    looking at layout the point.
+                    Book a 3.5-hour consultation session at Ksh 25,000. <br />
+                    Choose your preferred time slot below.
+
+                </p>
+                <p class="white-text wow fadeInUp" data-wow-delay=".5s">
+                    Available Time Slots:
+                    <br />
+                    • Morning: 9:00 AM - 12:30 PM
+                    <br />
+                    • Afternoon: 2:00 PM - 5:30 PM
                 </p>
             </div>
             <div class="contact-wrapper">
                 <div class="row g-4">
                     <div class="col-xl-6">
                         <div class="contact-form-area">
-                            <h3>Get in Touch</h3>
+                            <h3>Book Your Consultation</h3>
                             <form action="#" id="contact-form" method="POST">
                                 <div class="row g-4">
                                     <div class="col-lg-6">
@@ -994,7 +773,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <input type="text" name="email" id="email"
+                                            <input type="email" name="email" id="email"
                                                 placeholder="Email Address" />
                                         </div>
                                     </div>
@@ -1006,21 +785,21 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <select name="orderby" class="single-select" aria-label="Shop order">
-                                                <option value="subject" selected="selected">
-                                                    Subject
-                                                </option>
-                                                <option value="complain">Complain</option>
-                                                <option value="greetings">Greetings</option>
-                                                <option value="date">Expire Date</option>
-                                                <option value="price">About Price</option>
-                                                <option value="order">About order</option>
-                                            </select>
+                                            <!-- Date picker input field -->
+                                            <input type="date" name="consultation_date" id="consultation_date"
+                                                placeholder="Select Date" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-clt">
+                                            <!-- Time picker input field -->
+                                            <input type="time" name="consultation_time" id="consultation_time"
+                                                placeholder="Select Time" required />
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-clt">
-                                            <textarea name="message" id="message" placeholder="Messages"></textarea>
+                                            <textarea name="message" id="message" placeholder="Message (optional)"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -1028,14 +807,13 @@
                                             <input class="form-check-input" type="checkbox" value=""
                                                 id="flexCheckChecked" checked="" />
                                             <label class="form-check-label" for="flexCheckChecked">
-                                                Collaboratively formulate principle capital.
-                                                Progressively evolve user
+                                                I agree to the terms and conditions.
                                             </label>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <button type="submit" class="theme-btn">
-                                            Submit Now
+                                            Book Consultation
                                             <i class="fa-solid fa-arrow-right ms-1"></i>
                                         </button>
                                     </div>
@@ -1046,8 +824,9 @@
                     <div class="col-xl-6">
                         <div class="contact-map">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
-                                style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127641.16174540039!2d36.76499659864798!3d-1.3032076027568165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1736596305705!5m2!1sen!2ske"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                             <div class="contact-info-wrapper">
                                 <h2>Contact Info</h2>
@@ -1069,8 +848,8 @@
                                     </div>
                                     <div class="content">
                                         <h3>
-                                            Gregory Cartwright, 4059 <br />
-                                            Carling Avenue, Ugglebarnby
+                                            Nairobi,<br />
+                                            Kenya
                                         </h3>
                                     </div>
                                 </div>
@@ -1080,7 +859,7 @@
                                     </div>
                                     <div class="content">
                                         <h3>
-                                            <a href="tel:61086660112">+6108-666-0112</a>
+                                            <a href="tel:+254 718 434829">+254 718 434829</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -1090,7 +869,8 @@
                                     </div>
                                     <div class="content">
                                         <h3>
-                                            <a href="mailto::info@example.com">info@example.com</a>
+                                            <a
+                                                href="mailto::info@ardentdigitaltrends.com">info@ardentdigitaltrends.com</a>
                                         </h3>
                                     </div>
                                 </div>

@@ -11,7 +11,7 @@
     <!-- ======== Page title ============ -->
     <title>Digtek - Digital Marketing Agency Html Template</title>
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--<< All Min Css >>-->
