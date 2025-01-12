@@ -2,36 +2,62 @@
 <html lang="en">
 
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Gramentheme" />
-    <meta name="description" content="Digtek - Digital Marketing Agency Html Template" />
-    <!-- ======== Page title ============ -->
-    <title>Digtek - Digital Marketing Agency Html Template</title>
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Icomoon.css >>-->
-    <link rel="stylesheet" href="assets/css/icomoon.css" />
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Color.css >>-->
-    <link rel="stylesheet" href="assets/css/color.css" />
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Ardent Digital Trends | 13+ Years Digital Marketing Excellence in Africa</title>
+    <meta name="description"
+        content="Founded in 2016, Ardent Digital Trends brings 13+ years of expertise in digital marketing across Africa, Middle East, and Europe. Learn about our innovative approaches, expert team, and commitment to delivering ROI-driven results in Nairobi.">
+    <meta name="author" content="Ardent Digital Trends">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ardentdigitaltrends.com/about">
+    <meta property="og:title" content="About Ardent Digital Trends | Leading Digital Marketing Agency in Nairobi">
+    <meta property="og:description"
+        content="Discover how Ardent Digital Trends has been transforming businesses since 2016 with innovative digital marketing solutions and AI-powered strategies. Meet our expert team in Nairobi.">
+    <meta property="og:image" content="https://ardentdigitaltrends.com/assets/img/about-og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ardentdigitaltrends.com/about">
+    <meta property="twitter:title" content="About Ardent Digital Trends | Leading Digital Marketing Agency in Nairobi">
+    <meta property="twitter:description"
+        content="Discover how Ardent Digital Trends has been transforming businesses since 2016 with innovative digital marketing solutions and AI-powered strategies. Meet our expert team in Nairobi.">
+    <meta property="twitter:image" content="https://ardentdigitaltrends.com/assets/img/about-og-image.jpg">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="digital marketing agency nairobi, marketing consultancy kenya, digital transformation experts, african digital marketing, marketing agency history, business growth specialists, AI marketing experts, digital strategy consultants, marketing innovation africa, nairobi marketing team">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="geo.region" content="KE">
+    <meta name="geo.placename" content="Nairobi">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ardentdigitaltrends.com/about">
 </head>
 
 <body>
@@ -86,7 +112,7 @@
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="about-image">
-                            <img src="assets/img/about/01.jpg" alt="img" class="wow img-custom-anim-left"
+                            <img src="\assets\img\user 3.jpg" alt="img" class="wow img-custom-anim-left"
                                 data-wow-duration="1.5s" data-wow-delay="0.3s" />
                             <div class="box-shape float-bob-y">
                                 <img src="assets/img/about/box-shape-2.png" alt="img" />
@@ -178,8 +204,8 @@
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">
                         <div class="founder-image">
-                            <img src="assets/img/testimonial/03.png" alt="Founder Image"
-                                class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                            <img src="\assets\img\sheila.png" alt="Founder Image" class="wow img-custom-anim-left"
+                                data-wow-duration="1.5s" data-wow-delay="0.3s" />
                             {{-- <div class="rocket-shape">
                             <img src="assets/img/testimonial/rocket.png" alt="img" />
                         </div>
@@ -256,8 +282,8 @@
                     </div>
                 </div>
                 <div class="cta-video-image wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                    <img src="assets/img/cta-video.jpg" alt="img" />
-                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-icon video-popup">
+                    <img src="\assets\img\user 4.jpg" alt="img" />
+                    <a href="https://youtu.be/f5uECY3WxV8?si=Bfrd07-EXS6IPZ2Z" class="video-icon video-popup">
                         <i class="fa-solid fa-play"></i>
                     </a>
                 </div>

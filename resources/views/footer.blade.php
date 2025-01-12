@@ -6,7 +6,7 @@
     <div class="container">
         <div class="cta-wrapper bg-cover" style="background-image: url('assets/img/cta-bg.jpg')">
             <div class="cta-img wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                <img src="assets/img/cta-img.png" alt="img" />
+                <img src="\assets\img\user 2.png" alt="img" />
             </div>
             <h2 class="wow fadeInUp" data-wow-delay=".3s">
                 Stay Connected With <br />
@@ -94,6 +94,7 @@
                         <div class="widget-head">
                             <h3>Contact Us</h3>
                         </div>
+
                         <div class="footer-content">
                             <ul class="contact-info">
                                 <li>
@@ -106,23 +107,107 @@
                                 </li>
                             </ul>
                             <div class="footer-input">
-                                <input type="email" id="email2" placeholder="Your email address" />
-                                <button class="newsletter-btn" type="submit">
+                                <input type="email" id="newsletter-email" placeholder="Your email address" required />
+                                <meta name="csrf-token" content="{{ csrf_token() }}">
+
+                                <button class="newsletter-btn" id="subscribe-btn" type="button">
                                     <i class="fa-regular fa-arrow-right-long"></i>
+                                    <div id="newsletter-loading-spinner" style="display:none;"></div>
                                 </button>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
-                                    checked="" />
+                                    checked />
                                 <label class="form-check-label" for="flexCheckChecked">
                                     I agree to the <a href="/contact">Privacy Policy.</a>
                                 </label>
                             </div>
+                            <!-- Feedback message section -->
+                            <div id="newsletter-response" style="display:none;"></div>
                         </div>
                     </div>
+
+                    <style>
+                        /* Add these styles for the newsletter loader */
+                        #newsletter-loading-spinner {
+                            display: none;
+                            border: 4px solid #f3f3f3;
+                            border-top: 4px solid #3498db;
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                            animation: spin 2s linear infinite;
+                        }
+
+                        @keyframes spin {
+                            0% {
+                                transform: rotate(0deg);
+                            }
+
+                            100% {
+                                transform: rotate(360deg);
+                            }
+                        }
+                    </style>
+                    <script>
+                        document.getElementById('subscribe-btn').addEventListener('click', function(event) {
+                            event.preventDefault(); // Prevent default button behavior
+
+                            const emailInput = document.getElementById('newsletter-email');
+                            const subscribeButton = document.getElementById('subscribe-btn');
+                            const spinner = document.getElementById('newsletter-loading-spinner');
+                            const responseDiv = document.getElementById('newsletter-response');
+
+                            // Validate email input
+                            const email = emailInput.value;
+                            if (!email) {
+                                alert('Please enter your email address');
+                                return;
+                            }
+
+                            // Show loader and hide the button text
+                            spinner.style.display = 'inline-block';
+                            subscribeButton.disabled = true;
+
+                            // Prepare the data for the AJAX request
+                            const formData = new FormData();
+                            formData.append('email', email);
+                            formData.append('_token', document.querySelector('meta[name="csrf-token"]').content); // CSRF token
+
+                            // Send AJAX request
+                            fetch("{{ route('newsletter.subscribe') }}", {
+                                    method: 'POST',
+                                    body: formData,
+                                })
+                                .then(response => response.json())
+                                .then(data => {
+                                    spinner.style.display = 'none';
+                                    subscribeButton.disabled = false;
+
+                                    if (data.success) {
+                                        responseDiv.style.display = 'block';
+                                        responseDiv.innerHTML = `<p style="color: green;">${data.message}</p>`;
+                                        emailInput.value = ''; // Clear the input field
+                                    } else {
+                                        responseDiv.style.display = 'block';
+                                        responseDiv.innerHTML =
+                                            `<p style="color: red;">There was an error processing your subscription. Please try again.</p>`;
+                                    }
+                                })
+                                .catch(error => {
+                                    spinner.style.display = 'none';
+                                    subscribeButton.disabled = false;
+                                    responseDiv.style.display = 'block';
+                                    responseDiv.innerHTML =
+                                        `<p style="color: red;">Something went wrong. Please try again later.</p>`;
+                                });
+                        });
+                    </script>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <div class="footer-bottom">
         <div class="container">

@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ConsultationController;
+use App\Http\Controllers\NewsletterController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -43,3 +46,8 @@ Route::get('/service-details', function () {
 Route::fallback(function () {
     return view('404');
 });
+
+
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/book-consultation', [ConsultationController::class, 'store'])->name('consultation.store');
+Route::post('/subscribe-newsletter', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');

@@ -137,11 +137,90 @@
     <div class="search-inner">
         <i class="fas fa-times search-close" id="search-close"></i>
         <div class="search-cell">
-            <form method="get">
+            <form method="get" id="search-form">
                 <div class="search-field-holder">
-                    <input type="search" class="main-search-input" placeholder="Search..." />
+                    <input type="search" class="main-search-input" id="search-input" placeholder="Search..." />
                 </div>
+                <button type="button" id="search-button" style="display: none;"></button>
             </form>
         </div>
     </div>
 </div>
+
+<!-- Highlight Styles -->
+<style>
+    .highlight {
+        background-color: yellow;
+        color: black;
+        font-weight: bold;
+    }
+</style>
+
+<script>
+    document.getElementById('search-input').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            performSearch();
+        }
+    });
+
+    function performSearch() {
+        // Clear previous highlights
+        document.querySelectorAll('.highlight').forEach(el => {
+            el.classList.remove('highlight');
+        });
+
+        const query = document.getElementById('search-input').value.toLowerCase();
+        if (!query) return;
+
+        // Search all text on the page
+        const bodyText = document.body;
+        const regex = new RegExp(`(${query})`, 'gi');
+
+        let found = false;
+        const walker = document.createTreeWalker(bodyText, NodeFilter.SHOW_TEXT, {
+            acceptNode: function(node) {
+                if (node.parentElement.tagName !== 'SCRIPT' && node.parentElement.tagName !== 'STYLE') {
+                    return NodeFilter.FILTER_ACCEPT;
+                }
+            },
+        });
+
+        while (walker.nextNode()) {
+            const node = walker.currentNode;
+
+            if (node.nodeValue.toLowerCase().includes(query)) {
+                found = true;
+
+                // Wrap matching text in a span with highlight class
+                const span = document.createElement('span');
+                span.classList.add('highlight');
+                const regexMatch = new RegExp(query, 'gi');
+                span.innerHTML = node.nodeValue.replace(regexMatch, match => `<span class="highlight">${match}</span>`);
+
+                const parent = node.parentNode;
+                parent.replaceChild(span, node);
+            }
+        }
+
+        // Scroll to the first match if found
+        if (found) {
+            const firstHighlight = document.querySelector('.highlight');
+            firstHighlight.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
+        } else {
+            alert('No matching text found on this page.');
+        }
+    }
+
+    // Close search functionality
+    document.getElementById('search-close').addEventListener('click', function() {
+        // Clear search input and highlights
+        document.getElementById('search-input').value = '';
+        document.querySelectorAll('.highlight').forEach(el => {
+            el.classList.remove('highlight');
+        });
+    });
+</script>

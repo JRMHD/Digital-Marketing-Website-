@@ -2,36 +2,62 @@
 <html lang="en">
 
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Gramentheme" />
-    <meta name="description" content="Digtek - Digital Marketing Agency Html Template" />
-    <!-- ======== Page title ============ -->
-    <title>Digtek - Digital Marketing Agency Html Template</title>
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Icomoon.css >>-->
-    <link rel="stylesheet" href="assets/css/icomoon.css" />
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Color.css >>-->
-    <link rel="stylesheet" href="assets/css/color.css" />
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ardent Digital Trends | Leading Digital Marketing Agency in Nairobi | AI-Powered Marketing Solutions</title>
+    <meta name="description"
+        content="Transform your business with Ardent Digital Trends, Nairobi's premier digital marketing agency. Specializing in AI-powered marketing, media buying, and ROI-driven strategies. 13+ years of expertise across Africa, Middle East, and Europe.">
+    <meta name="author" content="Ardent Digital Trends">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ardentdigitaltrends.com/">
+    <meta property="og:title" content="Ardent Digital Trends | Digital Marketing Consultancy in Nairobi">
+    <meta property="og:description"
+        content="Expert digital marketing solutions including AI-powered marketing, media buying, and ROI-driven strategies. Transform your business with data-driven approaches.">
+    <meta property="og:image" content="https://ardentdigitaltrends.com/assets/img/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ardentdigitaltrends.com/">
+    <meta property="twitter:title" content="Ardent Digital Trends | Digital Marketing Consultancy in Nairobi">
+    <meta property="twitter:description"
+        content="Expert digital marketing solutions including AI-powered marketing, media buying, and ROI-driven strategies. Transform your business with data-driven approaches.">
+    <meta property="twitter:image" content="https://ardentdigitaltrends.com/assets/img/og-image.jpg">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="digital marketing agency nairobi, AI marketing kenya, programmatic advertising, digital transformation, media buying, marketing consultancy, ROI marketing, digital strategy africa, marketing automation, business growth kenya">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="geo.region" content="KE">
+    <meta name="geo.placename" content="Nairobi">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ardentdigitaltrends.com/">
 </head>
 
 <body>
@@ -87,7 +113,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="hero-image">
-                        <img src="assets/img/hero/hero-image-2.png" alt="img" class="wow img-custom-anim-left"
+                        <img src="\assets\img\home user.png" alt="img" class="wow img-custom-anim-left"
                             data-wow-duration="1.5s" data-wow-delay="0.3s" />
                         <div class="bg-shape">
                             <img src="assets/img/hero/bg-shape-2.png" alt="img" />
@@ -263,7 +289,7 @@
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="about-image">
-                            <img src="assets/img/about/01.png" alt="img" class="wow img-custom-anim-left"
+                            <img src="\assets\img\user 1.png" alt="img" class="wow img-custom-anim-left"
                                 data-wow-duration="1.5s" data-wow-delay="0.3s" />
                             <div class="bg-shape">
                                 <img src="assets/img/about/bg-shape.png" alt="img" />
@@ -667,7 +693,7 @@
                                             <img src="assets/img/testimonial/icon.png" alt="img" />
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="assets/img/testimonial/02.png" alt="img" />
+                                            <img src="assets/img/testimonial/09.png" alt="img" />
                                             <div class="shape-img">
                                                 <img src="assets/img/testimonial/shape.png" alt="img" />
                                             </div>
@@ -757,69 +783,126 @@
                     <br />
                     • Afternoon: 2:00 PM - 5:30 PM
                 </p>
+                <div class="calendly-booking wow fadeInUp" data-wow-delay=".7s"
+                    style="margin: 25px 0; 
+            text-align: center;">
+                    <a href="https://calendly.com/reaganmukabana/30min" target="_blank"
+                        class="theme-btn d-inline-flex align-items-center"
+                        style="background: white; 
+              color: #6A47ED; 
+              padding: 16px 32px; 
+              border-radius: 12px; 
+              text-decoration: none; 
+              box-shadow: 0 8px 24px rgba(106, 71, 237, 0.12); 
+              transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+              display: inline-flex; 
+              align-items: center; 
+              gap: 16px;
+              border: 1px solid rgba(106, 71, 237, 0.08);
+              position: relative;">
+                        <img src="/assets/img/calendly logo.png" alt="Calendly Logo"
+                            style="height: 32px;
+                    width: auto; 
+                    vertical-align: middle;">
+                        <span
+                            style="font-weight: 600; 
+                     font-size: 16px; 
+                     letter-spacing: 0.4px;
+                     color: #6A47ED;
+                     white-space: nowrap;">Book
+                            Now via Calendly</span>
+                    </a>
+                </div>
+                <style>
+                    .calendly-booking a:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 0 12px 28px rgba(106, 71, 237, 0.18);
+                        background: rgba(255, 255, 255, 0.99);
+                    }
+
+                    .calendly-booking a:active {
+                        transform: translateY(1px);
+                        box-shadow: 0 4px 12px rgba(106, 71, 237, 0.12);
+                    }
+                </style>
             </div>
+
             <div class="contact-wrapper">
                 <div class="row g-4">
                     <div class="col-xl-6">
                         <div class="contact-form-area">
                             <h3>Book Your Consultation</h3>
-                            <form action="#" id="contact-form" method="POST">
+                            <form id="consultation-form" action="{{ route('consultation.store') }}" method="POST">
+                                @csrf
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <input type="text" name="name" id="name"
-                                                placeholder="Full Name" />
+                                            <input type="text" name="name" placeholder="Full Name" required />
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <input type="email" name="email" id="email"
-                                                placeholder="Email Address" />
+                                            <input type="email" name="email" placeholder="Email Address"
+                                                required />
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <input type="number" name="number" id="number"
-                                                placeholder="Phone Number" />
+                                            <input type="number" name="number" placeholder="Phone Number"
+                                                required />
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <!-- Date picker input field -->
-                                            <input type="date" name="consultation_date" id="consultation_date"
-                                                placeholder="Select Date" required />
+                                            <input type="date" name="consultation_date" required />
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <!-- Time picker input field -->
-                                            <input type="time" name="consultation_time" id="consultation_time"
-                                                placeholder="Select Time" required />
+                                            <input type="time" name="consultation_time" required />
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-clt">
-                                            <textarea name="message" id="message" placeholder="Message (optional)"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckChecked" checked="" />
-                                            <label class="form-check-label" for="flexCheckChecked">
-                                                I agree to the terms and conditions.
-                                            </label>
+                                            <textarea name="message" placeholder="Message (optional)"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <button type="submit" class="theme-btn">
-                                            Book Consultation
-                                            <i class="fa-solid fa-arrow-right ms-1"></i>
+                                            <div id="loading-spinner"></div>
+                                            <span id="button-text">Book Consultation</span>
                                         </button>
                                     </div>
+                                    <div id="form-response" style="display:none;"></div>
                                 </div>
                             </form>
                         </div>
+
+                        <style>
+                            /* Add these styles for the modern loader */
+                            #loading-spinner {
+                                display: none;
+                                margin-right: 10px;
+                                border: 4px solid #f3f3f3;
+                                border-top: 4px solid #3498db;
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                                animation: spin 2s linear infinite;
+                            }
+
+                            @keyframes spin {
+                                0% {
+                                    transform: rotate(0deg);
+                                }
+
+                                100% {
+                                    transform: rotate(360deg);
+                                }
+                            }
+                        </style>
+
+
                     </div>
                     <div class="col-xl-6">
                         <div class="contact-map">
@@ -884,6 +967,60 @@
 
     @include('footer')
 
+
+    <script>
+        document.getElementById('consultation-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const form = event.target;
+            const buttonText = document.getElementById('button-text');
+            const spinner = document.getElementById('loading-spinner');
+            const responseDiv = document.getElementById('form-response');
+
+            // Show loader and hide button text
+            spinner.style.display = 'inline-block';
+            buttonText.style.display = 'none';
+
+            // Prepare form data
+            const formData = new FormData(form);
+
+            // Send AJAX request
+            fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'X-CSRF-TOKEN': form.querySelector('input[name="_token"]').value
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Hide loader and show success message
+                    spinner.style.display = 'none';
+                    buttonText.style.display = 'inline-block';
+
+                    if (data.success) {
+                        responseDiv.style.display = 'block';
+                        responseDiv.innerHTML = `<p style="color: green;">${data.message}</p>`;
+                    } else {
+                        responseDiv.style.display = 'block';
+                        responseDiv.innerHTML =
+                            `<p style="color: red;">There was an error processing your request. Please try again later.</p>`;
+                    }
+
+                    // Clear the form
+                    form.reset();
+                })
+                .catch(error => {
+                    // Hide loader and show error message
+                    spinner.style.display = 'none';
+                    buttonText.style.display = 'inline-block';
+
+                    responseDiv.style.display = 'block';
+                    responseDiv.innerHTML =
+                        `<p style="color: red;">Something went wrong. Please try again later.</p>`;
+                });
+        });
+    </script>
     <!--<< All JS Plugins >>-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!--<< Viewport Js >>-->

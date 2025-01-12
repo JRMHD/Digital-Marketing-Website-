@@ -2,36 +2,92 @@
 <html lang="en">
 
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Gramentheme" />
-    <meta name="description" content="Digtek - Digital Marketing Agency Html Template" />
-    <!-- ======== Page title ============ -->
-    <title>Digtek - Digital Marketing Agency Html Template</title>
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Icomoon.css >>-->
-    <link rel="stylesheet" href="assets/css/icomoon.css" />
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Color.css >>-->
-    <link rel="stylesheet" href="assets/css/color.css" />
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Ardent Digital Trends | Book Marketing Consultation in Nairobi</title>
+    <meta name="description"
+        content="Book a 3.5-hour marketing consultation in Nairobi. Expert digital marketing guidance for your business. Available slots morning and afternoon. Contact us to transform your marketing strategy today.">
+    <meta name="author" content="Ardent Digital Trends">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ardentdigitaltrends.com/contact">
+    <meta property="og:title" content="Contact Us | Ardent Digital Trends Nairobi">
+    <meta property="og:description"
+        content="Ready to transform your marketing strategy? Book a consultation with our digital marketing experts in Nairobi. Morning and afternoon slots available.">
+    <meta property="og:image" content="https://ardentdigitaltrends.com/assets/img/contact-og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ardentdigitaltrends.com/contact">
+    <meta property="twitter:title" content="Contact Us | Ardent Digital Trends Nairobi">
+    <meta property="twitter:description"
+        content="Ready to transform your marketing strategy? Book a consultation with our digital marketing experts in Nairobi. Morning and afternoon slots available.">
+    <meta property="twitter:image" content="https://ardentdigitaltrends.com/assets/img/contact-og-image.jpg">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="marketing consultation nairobi, digital marketing agency contact, book marketing consultation, marketing strategy session, digital marketing experts kenya, marketing consultancy nairobi, business consultation kenya, marketing agency contact, digital transformation consultation, AI marketing consultation">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="geo.region" content="KE">
+    <meta name="geo.placename" content="Nairobi">
+
+    <!-- Schema.org Markup for Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Ardent Digital Trends",
+        "image": "https://ardentdigitaltrends.com/assets/img/logo.jpg",
+        "description": "Digital marketing consultancy offering AI-powered solutions and strategy services",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+        },
+        "geo": {
+            "@type": "GeoCoordinates"
+        },
+        "url": "https://ardentdigitaltrends.com",
+        "telephone": "",
+        "priceRange": "Ksh 25,000 per consultation",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "17:30"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ardentdigitaltrends.com/contact">
 </head>
 
 <body>
@@ -141,61 +197,126 @@
                     <div class="col-lg-6">
                         <div class="contact-content">
                             <h2>Let’s Work Together</h2>
-                            <p>
-                                We’re here to help you achieve your marketing goals. Let’s start with a conversation
-                                about how
-                                we can bring value to your business.
-                            </p>
-                            <form action="https://ex-coders.com/html/digtek/contact.php" id="contact-form"
-                                method="POST" class="contact-form-items">
+                            <p>We’re here to help you achieve your marketing goals.</p>
+                            <form id="contact-form" class="contact-form-items">
+                                @csrf
                                 <div class="row g-4">
-                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="col-lg-6">
                                         <div class="form-clt">
                                             <span>Your name*</span>
-                                            <input type="text" name="name" id="name"
-                                                placeholder="Your Name" />
+                                            <input type="text" name="name" placeholder="Your Name" required />
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="col-lg-6">
                                         <div class="form-clt">
                                             <span>Your Email*</span>
-                                            <input type="text" name="email" id="email"
-                                                placeholder="Your Email" />
+                                            <input type="email" name="email" placeholder="Your Email" required />
                                         </div>
                                     </div>
-                                    <!-- Added Subject Field -->
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
                                             <span>Subject*</span>
-                                            <input type="text" name="subject" id="subject"
-                                                placeholder="Subject" />
+                                            <input type="text" name="subject" placeholder="Subject" required />
                                         </div>
                                     </div>
-                                    <!-- Added Phone Number Field -->
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
                                             <span>Your Phone Number*</span>
-                                            <input type="text" name="phone" id="phone"
-                                                placeholder="Your Phone Number" />
+                                            <input type="text" name="phone" placeholder="Your Phone Number"
+                                                required />
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
                                             <span>Write Message*</span>
-                                            <textarea name="message" id="message" placeholder="Write Message"></textarea>
+                                            <textarea name="message" placeholder="Write Message" required></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
+                                    <div class="col-lg-12">
                                         <button type="submit" class="theme-btn">
+                                            <div id="loading-spinner"></div>
                                             Send Message
-                                            <i class="fa-solid fa-arrow-right-long"></i>
                                         </button>
                                     </div>
+
                                 </div>
                             </form>
-
-                            </form>
+                            <div id="response-message" style="margin-top: 20px;"></div>
                         </div>
+
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                $('#contact-form').submit(function(e) {
+                                    e.preventDefault();
+
+                                    // Show the spinner
+                                    $('#loading-spinner').show();
+
+                                    // Disable the submit button to prevent multiple submissions
+                                    $('button[type="submit"]').prop('disabled', true);
+
+                                    $.ajax({
+                                        url: "{{ route('contact.store') }}",
+                                        type: "POST",
+                                        data: $(this).serialize(),
+                                        success: function(response) {
+                                            // Hide the spinner
+                                            $('#loading-spinner').hide();
+
+                                            // Enable the submit button
+                                            $('button[type="submit"]').prop('disabled', false);
+
+                                            // Show success message
+                                            $('#response-message').text(response.message).css('color', 'green');
+
+                                            // Reset the form
+                                            $('#contact-form')[0].reset();
+                                        },
+                                        error: function(xhr) {
+                                            // Hide the spinner
+                                            $('#loading-spinner').hide();
+
+                                            // Enable the submit button
+                                            $('button[type="submit"]').prop('disabled', false);
+
+                                            // Show error message
+                                            $('#response-message').text('Something went wrong. Please try again.')
+                                                .css('color', 'red');
+                                        }
+                                    });
+                                });
+                            });
+                        </script>
+
+                        <style>
+                            /* Spinner styling */
+                            #loading-spinner {
+                                display: none;
+                                border: 4px solid rgba(0, 0, 0, 0.2);
+                                /* Light gray */
+                                border-top: 4px solid #3498db;
+                                /* Blue */
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                                animation: spin 1s linear infinite;
+                                margin-right: 10px;
+                                vertical-align: middle;
+                            }
+
+                            /* Animation for rotation */
+                            @keyframes spin {
+                                0% {
+                                    transform: rotate(0deg);
+                                }
+
+                                100% {
+                                    transform: rotate(360deg);
+                                }
+                            }
+                        </style>
+
                     </div>
                 </div>
             </div>

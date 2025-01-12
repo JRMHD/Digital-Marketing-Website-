@@ -2,36 +2,86 @@
 <html lang="en">
 
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Gramentheme" />
-    <meta name="description" content="Digtek - Digital Marketing Agency Html Template" />
-    <!-- ======== Page title ============ -->
-    <title>Digtek - Digital Marketing Agency Html Template</title>
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Icomoon.css >>-->
-    <link rel="stylesheet" href="assets/css/icomoon.css" />
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Color.css >>-->
-    <link rel="stylesheet" href="assets/css/color.css" />
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Digital Marketing FAQs | Ardent Digital Trends Nairobi | Expert Answers</title>
+    <meta name="description"
+        content="Find answers about AI-powered marketing, digital transformation, media buying, and ROI-driven strategies. Expert digital marketing insights from Nairobi's leading agency. Learn about our consultation process.">
+    <meta name="author" content="Ardent Digital Trends">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ardentdigitaltrends.com/faq">
+    <meta property="og:title" content="Frequently Asked Questions | Ardent Digital Trends">
+    <meta property="og:description"
+        content="Get answers to common questions about digital marketing, AI solutions, and business growth strategies. Expert insights from Nairobi's leading digital marketing agency.">
+    <meta property="og:image" content="https://ardentdigitaltrends.com/assets/img/faq-og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ardentdigitaltrends.com/faq">
+    <meta property="twitter:title" content="Frequently Asked Questions | Ardent Digital Trends">
+    <meta property="twitter:description"
+        content="Get answers to common questions about digital marketing, AI solutions, and business growth strategies. Expert insights from Nairobi's leading digital marketing agency.">
+    <meta property="twitter:image" content="https://ardentdigitaltrends.com/assets/img/faq-og-image.jpg">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="digital marketing faq, marketing agency questions, AI marketing help, digital transformation guide, marketing consultation process, digital marketing costs kenya, marketing agency services nairobi, ROI marketing questions, business growth faqs, digital strategy help">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="geo.region" content="KE">
+    <meta name="geo.placename" content="Nairobi">
+
+    <!-- Schema.org FAQ Page Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "What digital marketing services do you offer?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We offer AI-powered marketing, media buying, digital transformation, ROI-driven strategies, and comprehensive digital marketing training services."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How much does a consultation cost?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our consultation sessions are 3.5 hours long and cost Ksh 25,000. Available in morning (9:00 AM - 12:30 PM) or afternoon (2:00 PM - 5:30 PM) slots."
+            }
+        }]
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ardentdigitaltrends.com/faq">
 </head>
 
 <body>

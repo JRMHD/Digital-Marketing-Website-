@@ -2,36 +2,62 @@
 <html lang="en">
 
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Gramentheme" />
-    <meta name="description" content="Digtek - Digital Marketing Agency Html Template" />
-    <!-- ======== Page title ============ -->
-    <title>Digtek - Digital Marketing Agency Html Template</title>
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Icomoon.css >>-->
-    <link rel="stylesheet" href="assets/css/icomoon.css" />
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Color.css >>-->
-    <link rel="stylesheet" href="assets/css/color.css" />
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Digital Marketing Services | AI-Powered Solutions | Ardent Digital Trends Nairobi</title>
+    <meta name="description"
+        content="Explore our comprehensive digital marketing services: AI-powered marketing, programmatic advertising, media buying, and ROI-driven strategies. Expert consultation available in Nairobi. Transform your business with data-driven solutions.">
+    <meta name="author" content="Ardent Digital Trends">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ardentdigitaltrends.com/services">
+    <meta property="og:title" content="Digital Marketing Services | Ardent Digital Trends Nairobi">
+    <meta property="og:description"
+        content="Comprehensive digital marketing services including AI-powered solutions, media buying, and ROI-driven strategies. Book a consultation today in Nairobi.">
+    <meta property="og:image" content="https://ardentdigitaltrends.com/assets/img/services-og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ardentdigitaltrends.com/services">
+    <meta property="twitter:title" content="Digital Marketing Services | Ardent Digital Trends Nairobi">
+    <meta property="twitter:description"
+        content="Comprehensive digital marketing services including AI-powered solutions, media buying, and ROI-driven strategies. Book a consultation today in Nairobi.">
+    <meta property="twitter:image" content="https://ardentdigitaltrends.com/assets/img/services-og-image.jpg">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="AI marketing kenya, digital transformation services, programmatic advertising nairobi, media buying services, marketing automation, digital marketing consultation, ROI marketing strategies, digital marketing training, market penetration services, social media marketing kenya">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="geo.region" content="KE">
+    <meta name="geo.placename" content="Nairobi">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ardentdigitaltrends.com/services">
 </head>
 
 <body>
