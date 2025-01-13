@@ -120,7 +120,7 @@
                             <div class="gap-shape float-bob-x">
                                 <img src="assets/img/about/grap-2.png" alt="img" />
                             </div>
-                            <a href="/about" class="circle-button">
+                            <a href="https://calendly.com/sheila-ardentdigitaltrends" class="circle-button">
                                 <i class="fa-regular fa-arrow-up-right"></i>
                                 <span class="text-circle">
                                     <img src="assets/img/about/white-text.png" alt="img" />
@@ -181,7 +181,7 @@
                             <div class="about-button">
                                 <div class="main-button wow fadeInUp" data-wow-delay=".3s">
                                     <a href="/contact">
-                                        <span class="theme-btn">ABOUT US MORE </span><span class="arrow-btn"><i
+                                        <span class="theme-btn">ABOUT US</span><span class="arrow-btn"><i
                                                 class="fa-regular fa-arrow-up-right"></i></span></a>
                                 </div>
                                 {{-- <a href="/about" class="link-btn wow fadeInUp" data-wow-delay=".5s">EXPLORE
@@ -221,7 +221,7 @@
                                     <span>Meet Our Founder</span>
                                 </div>
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                    Sheila Ombogo – Leading the way with 13+ years of marketing expertise
+                                    Sheila A.O ACIM, CBM, CSMM – Leading the way with 13+ years of marketing expertise
                                 </h2>
                             </div>
                             <p class="wow fadeInUp" data-wow-delay=".5s">
@@ -268,15 +268,15 @@
                     </div>
                     <div class="counter-box-area">
                         <div class="counter-text wow fadeInUp" data-wow-delay=".3s">
-                            <h2><span class="count">500</span>+</h2>
-                            <p>Projects Delivered</p>
+                            <h2><span class="count">300</span>+</h2>
+                            <p>Client Consultations</p>
                         </div>
                         <div class="counter-text wow fadeInUp" data-wow-delay=".5s">
-                            <h2><span class="count">500</span>+</h2>
+                            <h2><span class="count">300</span>+</h2>
                             <p>Happy Clients</p>
                         </div>
                         <div class="counter-text wow fadeInUp" data-wow-delay=".7s">
-                            <h2><span class="count">24</span></h2>
+                            <h2><span class="count">25</span></h2>
                             <p>Team Members</p>
                         </div>
                     </div>

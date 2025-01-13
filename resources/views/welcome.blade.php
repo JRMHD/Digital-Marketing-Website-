@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="brand-wrapper-2">
-            <h4 class="brand-title">500 + Brands Trust Us</h4>
+            <h4 class="brand-title">500 + Patners Trust Us</h4>
             <div class="swiper brand-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -259,7 +259,7 @@
         </div>
         <div class="container">
             <div class="brand-wrapper">
-                <h4 class="brand-title">500 + Brands Trust Us</h4>
+                <h4 class="brand-title">500 + Patners Trust Us</h4>
                 <div class="swiper brand-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -511,27 +511,27 @@
                         <div class="audience-content">
                             <div class="section-title">
                                 <div class="sub-title bg-color-3 wow fadeInUp">
-                                    <span class="wow fadeInUp">Client Success Stories</span>
+                                    <span class="wow fadeInUp">Success Stories</span>
                                 </div>
                                 <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                                    Marketing Strategies That Drive Results
+                                    Digital Excellence That Drives Growth
                                 </h2>
                             </div>
                             <div class="client-items wow fadeInUp" data-wow-delay=".5s">
                                 <div class="client-logo">
-                                    <img src="assets/img/hero/logo.png" alt="img" />
+                                    <img src="assets/img/hero/logo.png" alt="Ardent Digital Trends Logo" />
                                 </div>
                                 <div class="client-img">
-                                    <img src="assets/img/hero/client.png" alt="img" />
+                                    <img src="assets/img/hero/client.png" alt="Client Testimonial" />
                                     <div class="star-icon">
                                         <div class="star">
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
                                         </div>
-                                        <span>450+ positive reviews</span>
+                                        <span>200+ verified client reviews</span>
                                     </div>
                                 </div>
                             </div>
@@ -540,25 +540,25 @@
                     <div class="col-lg-8">
                         <div class="audience-right">
                             <div class="audience-img wow fadeInUp" data-wow-delay=".3s">
-                                <img src="assets/img/audience-img.jpg" alt="img" />
+                                <img src="assets/img/audience-img.jpg" alt="Digital Marketing Success" />
                             </div>
                             <div class="counter-box-area">
                                 <div class="counter-box wow fadeInUp" data-wow-delay=".5s">
-                                    <h2><span class="count">500</span>+</h2>
+                                    <h2><span class="count">200</span>+</h2>
                                     <div class="content">
                                         <h4>Successful Projects</h4>
                                         <p>
-                                            Over 500 projects delivered with measurable impact and client satisfaction.
+                                            Over 200 Projects Delivered with measurable impacts and client satisfaction
                                         </p>
                                     </div>
                                 </div>
                                 <div class="counter-box wow fadeInUp" data-wow-delay=".7s">
-                                    <h2><span class="count">300</span>M+</h2>
+                                    <h2><span class="count">150</span>%</h2>
                                     <div class="content">
-                                        <h4>Marketing Investment</h4>
+                                        <h4>Average ROI</h4>
                                         <p>
-                                            Over $300 million invested in cutting-edge strategies and marketing
-                                            solutions.
+                                            Average return on investment achieved for our clients through strategic
+                                            digital marketing.
                                         </p>
                                     </div>
                                 </div>
@@ -677,7 +677,7 @@
                                                     <i class="fa-solid fa-star"></i>
                                                 </div>
                                                 <h5>Ahmed Al-Farsi</h5>
-                                                <span>Marketing Manager - Dubai, UAE</span>
+                                                <span>Marketing Manager - Manama, Bahrain</span>
                                             </div>
                                             <p>
                                                 "The digital marketing audit and strategy were spot on. We saw a
@@ -708,7 +708,7 @@
                                                     <i class="fa-solid fa-star"></i>
                                                 </div>
                                                 <h5>Lucas Pohlmann</h5>
-                                                <span>Digital Marketer - Berlin, Germany</span>
+                                                <span>Digital Marketer - Vilnius, Lithuania</span>
                                             </div>
                                             <p>
                                                 "We were able to scale our digital marketing efforts with their expert
@@ -738,8 +738,8 @@
                                                     <i class="fa-solid fa-star"></i>
                                                     <i class="fa-solid fa-star"></i>
                                                 </div>
-                                                <h5>Oluwaseun Adebayo</h5>
-                                                <span>Business Development Manager - Lagos, Nigeria</span>
+                                                <h5>Themba Nkosi</h5>
+                                                <span>Business Development Manager - Capetown, South Africa</span>
                                             </div>
                                             <p>
                                                 "The ROI-driven marketing strategies they implemented were exactly what

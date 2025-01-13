@@ -46,7 +46,7 @@
                                 <i class="fal fa-clock"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                <a target="_blank" href="#">Mon-friday, 09am -05pm</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">

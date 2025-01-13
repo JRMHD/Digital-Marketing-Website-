@@ -155,10 +155,10 @@
                             <i class="icon-10"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="mailto: info@ardentdigitaltrends.com"> info@ardentdigitaltrends.com</a></h3>
+                            <h3><a href="mailto:info@ardentdigitaltrends.com"
+                                    style="text-transform: lowercase;">info@ardentdigitaltrends.com</a></h3>
                             <p>
                                 Email us anytime
-
                             </p>
                         </div>
                     </div>

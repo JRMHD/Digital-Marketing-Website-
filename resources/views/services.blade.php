@@ -234,7 +234,7 @@
                         <div class="results-left-items">
                             <div class="content">
                                 <h2><span class="count">500</span>+</h2>
-                                <h3>Total Projects</h3>
+                                <h3>Projects delivered across Africa, Middle East & Europe</h3>
                                 <p>Our work spans across various industries, helping clients achieve their goals through
                                     effective and tailored solutions. We bring meaningful impact to each project,
                                     ensuring that each one aligns with our clients' vision and drives success.</p>
@@ -323,7 +323,7 @@
                     </div>
                     <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
                         Case Study: Lead Generation Success <br />
-                        Regional SME in the Financial Sector
+                    in the Financial Sector
                     </h2>
                 </div>
                 <div class="cta-content wow fadeInUp" data-wow-delay=".5s">
