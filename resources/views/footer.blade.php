@@ -45,11 +45,17 @@
 
                             </p>
                             <div class="social-icon d-flex align-items-center">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a
+                                    href="https://www.instagram.com/ardent_digital_trends?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                        class="fab fa-instagram"></i></a>
+                                <a
+                                    href="https://www.instagram.com/ardent_digital_trends?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-tiktok"></i></a>
                                 <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/company/ardent-digital-trends/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>

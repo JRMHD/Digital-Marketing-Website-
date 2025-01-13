@@ -772,7 +772,7 @@
                     </h2>
                 </div>
                 <p class="white-text wow fadeInUp" data-wow-delay=".5s">
-                    Book a 3.5-hour consultation session at Ksh 25,000. <br />
+                    Book a 3.5-hour consultation session at Ksh 10,000. <br />
                     Choose your preferred time slot below.
 
                 </p>
@@ -786,7 +786,7 @@
                 <div class="calendly-booking wow fadeInUp" data-wow-delay=".7s"
                     style="margin: 25px 0; 
             text-align: center;">
-                    <a href="https://calendly.com/reaganmukabana/30min" target="_blank"
+                    <a href="https://calendly.com/sheila-ardentdigitaltrends" target="_blank"
                         class="theme-btn d-inline-flex align-items-center"
                         style="background: white; 
               color: #6A47ED; 
