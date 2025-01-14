@@ -646,7 +646,7 @@
                                                     <i class="fa-solid fa-star"></i>
                                                 </div>
                                                 <h5>Esther Wanjiru</h5>
-                                                <span>Nursing Assistant - Nairobi, Kenya</span>
+                                                <span>Real Estate Agent - Nairobi, Kenya</span>
                                             </div>
                                             <p>
                                                 "Working with Ardent Digital Trends was a game-changer for our business.
@@ -764,8 +764,8 @@
         <div class="container">
             <div class="section-title-area">
                 <div class="section-title">
-                    <div class="sub-title bg-color-3 wow fadeInUp">
-                        <span class="wow fadeInUp">Book a Consultation</span>
+                    <div class="sub-title wow fadeInUp" style="background-color: #FFC107;">
+                        <span class="wow fadeInUp" style="color: #000000;">Book a Consultation</span>
                     </div>
                     <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
                         Let’s tailor a marketing strategy just for you
@@ -868,7 +868,8 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
-                                        <button type="submit" class="theme-btn">
+                                        <button type="submit" class="theme-btn"
+                                            style="background-color: #FFC107; color: #000000;">
                                             <div id="loading-spinner"></div>
                                             <span id="button-text">Book Consultation</span>
                                         </button>
@@ -951,9 +952,8 @@
                                         <i class="fa-regular fa-envelope"></i>
                                     </div>
                                     <div class="content">
-                                        <h3>
-                                            <a
-                                                href="mailto::info@ardentdigitaltrends.com">info@ardentdigitaltrends.com</a>
+                                        <h3><a href="mailto:info@ardentdigitaltrends.com"
+                                                style="text-transform: lowercase;">info@ardentdigitaltrends.com</a>
                                         </h3>
                                     </div>
                                 </div>

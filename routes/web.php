@@ -37,11 +37,10 @@ Route::get('/services', function () {
     return view('services');
 });
 
-// Route for the service details page
-Route::get('/service-details', function () {
-    return view('service-details');
-});
 
+Route::get('/privacy-policy', function () {
+    return view('privacypolicy');
+})->name('privacy.policy');
 
 Route::fallback(function () {
     return view('404');

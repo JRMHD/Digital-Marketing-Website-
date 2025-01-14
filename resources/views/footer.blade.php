@@ -6,7 +6,7 @@
     <div class="container">
         <div class="cta-wrapper bg-cover" style="background-image: url('assets/img/cta-bg.jpg')">
             <div class="cta-img wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                <img src="\assets\img\user 2.png" alt="img" />
+                <img src="\assets\img\man suit 2.png" alt="img" />
             </div>
             <h2 class="wow fadeInUp" data-wow-delay=".3s">
                 Stay Connected With <br />
@@ -125,7 +125,7 @@
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
                                     checked />
                                 <label class="form-check-label" for="flexCheckChecked">
-                                    I agree to the <a href="/contact">Privacy Policy.</a>
+                                    I agree to the <a href="/privacy-policy">Privacy Policy.</a>
                                 </label>
                             </div>
                             <!-- Feedback message section -->
@@ -226,10 +226,10 @@
 
                 <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
                     <li>
-                        <a href="/contact"> Terms & Condition </a>
+                        <a href="/privacy-policy"> Term's' & Condition </a>
                     </li>
                     <li>
-                        <a href="/contact"> Privacy Policy </a>
+                        <a href="/privacy-policy"> Privacy Policy </a>
                     </li>
                 </ul>
             </div>
