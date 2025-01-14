@@ -37,7 +37,7 @@
     <meta name="revisit-after" content="7 days">
     <meta name="geo.region" content="KE">
     <meta name="geo.placename" content="Nairobi">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
@@ -132,32 +132,62 @@
             </div>
         </div>
         <div class="brand-wrapper-2">
-            <h4 class="brand-title">500 + Patners Trust Us</h4>
+            <h4 class="brand-title">Industries We Serve</h4>
             <div class="swiper brand-slider">
                 <div class="swiper-wrapper">
+                    <!-- Real Estate -->
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/01.png" alt="img" />
+                            <!-- Real Estate Icon (Font Awesome) -->
+                            <i class="fas fa-home" style="font-size: 50px;"></i>
                         </div>
                     </div>
+                    <!-- E-Commerce -->
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/02.png" alt="img" />
+                            <!-- E-Commerce Icon (Font Awesome) -->
+                            <i class="fas fa-shopping-cart" style="font-size: 50px;"></i>
                         </div>
                     </div>
+                    <!-- FMCG -->
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/03.png" alt="img" />
+                            <!-- FMCG Icon (Font Awesome) -->
+                            <i class="fas fa-box" style="font-size: 50px;"></i>
                         </div>
                     </div>
+                    <!-- Healthcare -->
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/04.png" alt="img" />
+                            <!-- Healthcare Icon (Font Awesome) -->
+                            <i class="fas fa-plus-circle" style="font-size: 50px;"></i>
+                        </div>
+                    </div>
+                    <!-- Financial Services -->
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <!-- Financial Services Icon (Font Awesome) -->
+                            <i class="fas fa-chart-line" style="font-size: 50px;"></i>
+                        </div>
+                    </div>
+                    <!-- Start-ups -->
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <!-- Start-ups Icon (Font Awesome) -->
+                            <i class="fas fa-arrow-up" style="font-size: 50px;"></i>
+                        </div>
+                    </div>
+                    <!-- IT -->
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <!-- IT Icon (Font Awesome) -->
+                            <i class="fas fa-laptop-code" style="font-size: 50px;"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
 
@@ -259,32 +289,62 @@
         </div>
         <div class="container">
             <div class="brand-wrapper">
-                <h4 class="brand-title">500 + Patners Trust Us</h4>
+                <h4 class="brand-title">Industries We Serve</h4>
                 <div class="swiper brand-slider">
                     <div class="swiper-wrapper">
+                        <!-- Real Estate -->
                         <div class="swiper-slide">
                             <div class="brand-img center">
-                                <img src="assets/img/brand/01.png" alt="img" />
+                                <!-- Real Estate Icon (Font Awesome) -->
+                                <i class="fas fa-home" style="font-size: 50px;"></i>
                             </div>
                         </div>
+                        <!-- E-Commerce -->
                         <div class="swiper-slide">
                             <div class="brand-img center">
-                                <img src="assets/img/brand/02.png" alt="img" />
+                                <!-- E-Commerce Icon (Font Awesome) -->
+                                <i class="fas fa-shopping-cart" style="font-size: 50px;"></i>
                             </div>
                         </div>
+                        <!-- FMCG -->
                         <div class="swiper-slide">
                             <div class="brand-img center">
-                                <img src="assets/img/brand/03.png" alt="img" />
+                                <!-- FMCG Icon (Font Awesome) -->
+                                <i class="fas fa-box" style="font-size: 50px;"></i>
                             </div>
                         </div>
+                        <!-- Healthcare -->
                         <div class="swiper-slide">
                             <div class="brand-img center">
-                                <img src="assets/img/brand/04.png" alt="img" />
+                                <!-- Healthcare Icon (Font Awesome) -->
+                                <i class="fas fa-plus-circle" style="font-size: 50px;"></i>
+                            </div>
+                        </div>
+                        <!-- Financial Services -->
+                        <div class="swiper-slide">
+                            <div class="brand-img center">
+                                <!-- Financial Services Icon (Font Awesome) -->
+                                <i class="fas fa-chart-line" style="font-size: 50px;"></i>
+                            </div>
+                        </div>
+                        <!-- Start-ups -->
+                        <div class="swiper-slide">
+                            <div class="brand-img center">
+                                <!-- Start-ups Icon (Font Awesome) -->
+                                <i class="fas fa-arrow-up" style="font-size: 50px;"></i>
+                            </div>
+                        </div>
+                        <!-- IT -->
+                        <div class="swiper-slide">
+                            <div class="brand-img center">
+                                <!-- IT Icon (Font Awesome) -->
+                                <i class="fas fa-laptop-code" style="font-size: 50px;"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="about-wrapper">
                 <div class="row g-4">
                     <div class="col-lg-6">
