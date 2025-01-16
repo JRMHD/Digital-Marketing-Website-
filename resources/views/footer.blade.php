@@ -219,7 +219,7 @@
             <div class="footer-wrapper d-flex align-items-center justify-content-between">
                 <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
                     © {{ now()->year }} by {{ config('app.name', 'Ardent') }}. Designed and developed by
-                    <a href="https://jrmhd.tech" target="_blank" style="color: white;">Jrmhd Technologies</a>.
+                    <a href="/" target="_blank" style="color: white;">Ardent Digital Trends</a>.
                 </p>
 
 
